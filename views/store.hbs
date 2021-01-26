@@ -1,0 +1,23 @@
+<h1>Store</h1>
+
+<form id="cool" action="#" method="GET">
+    <label>Are we cool?</label>
+    <input type="checkbox" />
+
+    <button type="submit">Submit</button>
+</form>
+
+<ul>
+    <li class="item">
+        <span class="name">Ball</span>
+        <input type="hidden" name="id" value="123-456" />
+        <input type="hidden" name="category" value="toys" />
+        <input type="hidden" name="price" value=55 />
+        <input type="hidden" name="name" value="ball-1" />
+        <button class="buy">Buy</button>
+    </li>
+</ul>
+
+{{#section 'scripts'}}
+    <script src='/js/store.js'></script>
+{{/section}}
