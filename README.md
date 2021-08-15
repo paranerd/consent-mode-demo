@@ -1,4 +1,4 @@
-# Google Analytics Demo
+# Consent Mode Demo
 
 ## Setup Google Analytics
 Follow [this tutorial](https://support.google.com/analytics/answer/1008080)
